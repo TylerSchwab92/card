@@ -1,0 +1,105 @@
+h1 {
+    font-weight: 700px;
+    font-family: Montserrat;
+}
+
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+}
+
+.p {
+    font-size: 14px;
+    font-family: Fraunces;
+    font-weight: 500px;
+    letter-spacing: 4px;
+
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+
+}
+
+.prices {
+    display: flex;
+    display: inline-block;
+}
+
+.p1 {
+
+    font-family: fraunces;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    margin-top: 50px;
+
+
+}
+
+.p2 {
+
+    text-decoration: line-through;
+    display: flex;
+
+
+}
+
+
+
+
+
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+
+    transition: background-color 200ms ease-in-out;
+    margin: auto;
+    padding: 20px;
+    border-radius: 1em;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.section {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 25px 25px;
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    box-shadow: 3px;
+    text-transform: uppercase;
+}
